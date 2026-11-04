@@ -1,0 +1,29 @@
+/* Tema do cliente — Academia Corpo Ideal. Cores extraídas do logo:
+   azul-marinho #171E2E (fundo), verde #55DC9C e lima #BEE653 (faixas). */
+:root {
+  /* Base escura: o azul-marinho do fundo do logo */
+  --color-black-950: #171E2E;
+  --color-black-900: #1E2534;
+  --color-black-800: #2A303F;
+
+  /* Cor de destaque: o verde do logo, com texto azul-marinho por cima */
+  --action-primary: #55DC9C;
+  --action-primary-hover: #4DC68C;
+  --action-primary-active: #44B07D;
+  --fg-on-accent: #171E2E;
+
+  /* Destaque sobre fundo escuro */
+  --accent-on-dark: #55DC9C;
+  --accent-border: #55DC9C;
+
+  /* Verdes mais escuros para fundo claro (contraste ≥3:1 e ≥4.5:1) */
+  --fg-accent: #369B6B;
+  --fg-accent-strong: #287D54;
+  --link-hover: #1B6240;
+
+  --accent-tint: rgba(85, 220, 156, .16);
+  --focus-ring: #3BA472;
+  --glow-accent: 0 0 16px rgba(85, 220, 156, .35);
+  --shadow-featured: 0 16px 40px rgba(85, 220, 156, .18);
+  --color-overlay: rgba(23, 30, 46, .78);
+}
